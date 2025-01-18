@@ -16,7 +16,7 @@ class Stopwatch(QWidget):
         
 
     def initUI(self):
-        pass
+        self.setWindowTitle
 
     def start(self):
         pass
@@ -35,7 +35,7 @@ class Stopwatch(QWidget):
 
 
 
-    
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
