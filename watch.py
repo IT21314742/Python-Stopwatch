@@ -22,7 +22,7 @@ class Stopwatch(QWidget):
         vbox.addWidget(self.time_label)
         vbox.addWidget(self.start_button)
         vbox.addWidget(self.stop_button)
-        vbox.addWidget(self.time_label)
+        vbox.addWidget(self.reset_button)
 
 
     def start(self):
