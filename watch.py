@@ -8,6 +8,6 @@ class Stopwatch(QWidget):
         super().__init__()
 
 if __name__ == "__main__":
-    app = QApplication(sys, argv)
+    app = QApplication(sys.argv)
     stopwatch = Stopwatch()
     stopwatch.show
