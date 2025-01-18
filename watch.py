@@ -4,5 +4,5 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QPushButton, QVBoxLa
 from PyQt5.QtCore import QTimer, QTime, Qt
 
 class Stopwatch(QWidget):
-    def __init__(self, parent = ..., flags = ...):
+    def __init__(self):
         super().__init__(parent, flags)
