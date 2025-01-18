@@ -27,6 +27,10 @@ class Stopwatch(QWidget):
     def reset(self):
         pass
 
+    def format_time(self, time):
+        pass
+
+    
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
