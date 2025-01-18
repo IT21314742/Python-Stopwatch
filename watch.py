@@ -15,7 +15,8 @@ class Stopwatch(QWidget):
         self.initUI()
         
 
-    
+    def initUI(self):
+        pass
 
 
 if __name__ == "__main__":
