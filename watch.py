@@ -7,4 +7,4 @@ class Stopwatch(QWidget):
     def __init__(self):
         super().__init__()
 
-if
+if __name__
