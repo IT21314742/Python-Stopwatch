@@ -11,6 +11,7 @@ class Stopwatch(QWidget):
         self.start_button = QPushButton("Start", self)
         self.stop_button = QPushButton("Stop", self)
         self.reset_button = QPushButton("Reset", self)
+        self.timer = QTimer(self)
 
 
 if __name__ == "__main__":
