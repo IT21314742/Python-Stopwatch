@@ -9,7 +9,7 @@ class Stopwatch(QWidget):
         self.time = QTime(0, 0, 0, 0)
         self.time_label = QLabel("00:00:00:00", self)
         self.start_button = QPushButton("Start", self)
-        self.start_button = QPushButton("Start", self)
+        self.stop_button = QPushButton("Stop", self)
 
 
 if __name__ == "__main__":
