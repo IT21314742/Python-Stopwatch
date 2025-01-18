@@ -19,6 +19,7 @@ class Stopwatch(QWidget):
         self.setWindowTitle("Stopwatch")
 
         vbox = QVBoxLayout()
+        vbox.addWidget(self.time_label)
 
 
     def start(self):
