@@ -30,6 +30,9 @@ class Stopwatch(QWidget):
     def format_time(self, time):
         pass
 
+    def update_display(self):
+        pass
+
     
 
 if __name__ == "__main__":
