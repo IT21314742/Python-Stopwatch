@@ -17,7 +17,9 @@ class Stopwatch(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Stopwatch")
-        
+
+        vbox = QVBoxLayout()
+
 
     def start(self):
         pass
