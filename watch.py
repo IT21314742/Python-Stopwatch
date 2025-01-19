@@ -27,6 +27,8 @@ class Stopwatch(QWidget):
 
         self.setLayout(vbox)
 
+        
+
 
     def start(self):
         pass
