@@ -25,7 +25,7 @@ class Stopwatch(QWidget):
         vbox.addWidget(self.reset_button)
 
 
-        
+        self.setLayout(vbox)
 
 
     def start(self):
