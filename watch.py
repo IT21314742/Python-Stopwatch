@@ -49,6 +49,8 @@ class Stopwatch(QWidget):
                 font-size: 120px}
         """)
 
+        self.start_button
+
     def start(self):
         pass
 
