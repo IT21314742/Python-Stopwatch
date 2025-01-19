@@ -37,7 +37,9 @@ class Stopwatch(QWidget):
 
         self.setStyleSheet("""
             QpushButton{
-                font-size: 50px}
+                font-size: 50px;
+                }
+            QLabel{}
         """)
 
     def start(self):
