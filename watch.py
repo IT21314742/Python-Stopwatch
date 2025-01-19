@@ -53,10 +53,10 @@ class Stopwatch(QWidget):
         self.stop_button.clicked.connect(self.stop)
         self.reset_button.clicked.connect(self.reset)
         self.timer.timeout.connect(self.update_display)
-        
+
 
     def start(self):
-        pass
+        
 
     def stop(self):
         pass
