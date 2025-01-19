@@ -33,6 +33,7 @@ class Stopwatch(QWidget):
         hbox.addWidget(self.stop_button)
         hbox.addWidget(self.reset_button)
 
+        vbox.addLayout(hbox)
 
     def start(self):
         pass
