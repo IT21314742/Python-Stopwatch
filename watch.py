@@ -29,6 +29,8 @@ class Stopwatch(QWidget):
 
         self.time_label.setAlignment(Qt.AlignCenter)
 
+        
+
 
     def start(self):
         pass
