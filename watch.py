@@ -39,6 +39,7 @@ class Stopwatch(QWidget):
             QpushButton{
                 font-size: 50px;
                 background-color: hsl(200, 100%, 85%);
+                border-radius
                 }
             QLabel{
                 font-size: 120px}
