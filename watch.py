@@ -68,7 +68,9 @@ class Stopwatch(QWidget):
 
     def format_time(self, time):
         hours = time.hour()
-        minutes = 
+        minutes = time.minute()
+        seconds = time.second()
+        milliseconds = time.msec()
 
     def update_display(self):
         pass
