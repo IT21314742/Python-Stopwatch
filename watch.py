@@ -58,8 +58,9 @@ class Stopwatch(QWidget):
     def start(self):
         self.timer.start(10)
 
+
     def stop(self):
-        pass
+        
 
     def reset(self):
         pass
