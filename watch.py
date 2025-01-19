@@ -36,6 +36,7 @@ class Stopwatch(QWidget):
         vbox.addLayout(hbox)
 
         self.setStyleSheet("""
+            QpushButton, QLabel{}
             QpushButton{
                 font-size: 50px;
                 background-color: hsl(200, 100%, 85%);
