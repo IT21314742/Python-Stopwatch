@@ -61,13 +61,13 @@ class Stopwatch(QWidget):
 
     def stop(self):
         self.timer.stop()
-        
+
 
     def reset(self):
         pass
 
     def format_time(self, time):
-        pass
+        
 
     def update_display(self):
         pass
