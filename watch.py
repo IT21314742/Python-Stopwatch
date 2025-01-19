@@ -49,7 +49,7 @@ class Stopwatch(QWidget):
                 font-size: 120px}
         """)
 
-        self.start_button.clicked
+        self.start_button.clicked.connect()
 
     def start(self):
         pass
