@@ -27,7 +27,7 @@ class Stopwatch(QWidget):
 
         self.setLayout(vbox)
 
-        
+        self.time_label.setAlignment(Qt.AlignCenter)
 
 
     def start(self):
