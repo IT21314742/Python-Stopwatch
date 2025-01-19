@@ -35,7 +35,9 @@ class Stopwatch(QWidget):
 
         vbox.addLayout(hbox)
 
-        
+        self.setStyleSheet("""
+            
+        """)
 
     def start(self):
         pass
