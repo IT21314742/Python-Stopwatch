@@ -50,6 +50,7 @@ class Stopwatch(QWidget):
         """)
 
         self.start_button.clicked.connect(self.start)
+        self.stop_button.clicked.connect(self.stop)
 
     def start(self):
         pass
