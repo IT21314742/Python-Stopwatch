@@ -67,7 +67,7 @@ class Stopwatch(QWidget):
         pass
 
     def format_time(self, time):
-        
+        hours
 
     def update_display(self):
         pass
